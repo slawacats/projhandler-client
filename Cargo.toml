@@ -1,0 +1,11 @@
+[package]
+name = "projhandler-client"
+description = "dont use this"
+version = "2.0.1"
+edition = "2025"
+authors = ["nd1 <slawacats@gmail.com>"]
+homepage = "https://github.com/slawacats/projhandler-client"
+repository = "https://github.com/slawacats/projhandler-client"
+license = "MIT"
+
+[dependencies]
