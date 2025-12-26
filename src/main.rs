@@ -1,12 +1,20 @@
 use std::env;
 
 
+fn init() {
+    
+}
+
 fn load() {
     println!("Загрузка проекта...")
+
+
 }
 
 fn save() {
     println!("Сохранение проекта...")
+
+
 }
 
 
@@ -17,9 +25,10 @@ fn main() {
         match command.as_str() {
             "load" => load(),
             "save" => save(),
+            "init" => init(),
             _ => println!("Неизвестная команда: {}", command),
         }
     } else {
-        println!("Использование: projhandler <load|save>");
+        println!("Использование: projhandler <load|save|init>");
     }
 }

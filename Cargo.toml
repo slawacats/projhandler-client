@@ -1,7 +1,7 @@
 [package]
 name = "projhandler-client"
 description = "dont use this"
-version = "2.0.1"
+version = "2.1.2"
 edition = "2024"
 authors = ["nd1 <slawacats@gmail.com>"]
 homepage = "https://github.com/slawacats/projhandler-client"
